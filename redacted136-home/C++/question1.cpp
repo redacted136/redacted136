@@ -3,21 +3,16 @@ using namespace std;
 
 int main() {
     int number;
-    
-    // Get input from user
-    cout << "Enter a three-digit number: ";
     cin >> number;
     
-    // Extract individual digits
-    int digit1 = number / 100;           // Hundreds place
-    int digit2 = (number / 10) % 10;     // Tens place
-    int digit3 = number % 10;            // Units place
+    int hundred = number / 100;  
+    int tens = (number / 10) % 10;     
+    int ones = number % 10;
     
-    // Check if any digits repeat
-    if (digit1 == digit2 || digit1 == digit3 || digit2 == digit3) {
-        cout << number << " contains repeating digits." << endl;
+    if (hundred == tens || hundred == ones || tens == ones) {
+        cout << "YES" << endl;
     } else {
-        cout << number << " does not contain repeating digits." << endl;
+        cout << "NO" << endl;
     }
     
     return 0;
