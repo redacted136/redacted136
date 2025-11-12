@@ -1,0 +1,1 @@
+import pandas as pdfrom scipy.cluster import hierarchyimport matplotlib.pyplot as pltdf = pd.read_csv('hero.csv', index_col=0)result = hierarchy.linkage(df)hierarchy.dendrogram(result, labels=df.index)plt.show()

@@ -1,0 +1,17 @@
+DECLARE Ticket : INTEGER
+DECLARE Total : REAL 
+OUTPUT "Amount of Ticket"
+INPUT Ticket
+
+IF Ticket >= 10 AND Ticket < 20 THEN
+    Total <- Ticket * 20 * 0.9
+    OUTPUT Total
+ELSE IF Ticket >= 20 AND Ticket < 26 THEN
+    Total <- Ticket * 20 * 0.8
+    OUTPUT Total
+ELSE IF Ticket < 0 THEN
+	OUTPUT "Negative Number Detected"
+ELSE
+    OUTPUT "Your amount of ticket exceeded the maximum amount available or is less than the minimum."
+    
+ENDIF
