@@ -19,7 +19,7 @@ int main(){
             result += numbers[i];
             if(result%2!=0){
                 max_odd.push_back(result);
-                 
+                cout << result << endl;
             }
         }
         
