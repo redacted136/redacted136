@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on personal projects.<br>🤝 I’m looking for help with programming issues.<br>🌱 I’m currently learning multiple languages, including C++, Python, and HTML.<br>💬 Ask me any questions<br>⚡ Fun fact: I live on 3 hours of sleep
+🔭 I’m currently working on personal projects.<br>🤝 I’m looking for help with programming issues.<br>🌱 I’m currently learning multiple languages, including C++, Python, and HTML.<br>💬 Ask me any questions<br>⚡ Fun fact: I live on 3 hours of sleep<br> Contact me on contactme@redacted136.com
 
 
 # 💻 Tech Stack:
